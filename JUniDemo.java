@@ -26,9 +26,9 @@ public class JUniDemo {
         WebElement btnLogin = driver.findElement(By.name("submit"));
         btnLogin.click();
 
-        try
+        try  
         {
-            Thread.sleep(8000);
+            Thread.sleep(5000);
         }
         catch(InterruptedException e)
         {
